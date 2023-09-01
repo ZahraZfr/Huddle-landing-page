@@ -1,13 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-footer >img{
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(192, 100%, 9%);
+}
+/* -------------------public style---------- */
+/* input, button, submit { }  */
+/* ------------------------------------------- */
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+.try-btn {
+  width: 137px;
+  height: 39px;
+  line-height: 39px;
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 30px;
+  text-align: center;
+  background-color: transparent;
+  color: hsl(322, 100%, 66%);
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  font-size: 1em;
+}
+footer > img {
   width: 100%;
   margin-bottom: -5px;
 }
 
-.footer-sec{
+header > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header div h1 {
+  font-size: 3em;
+  padding: 30px 0;
+}
+header div p {
+  width: 40%;
+  font-size: 1.3em;
+  line-height: 2rem;
+  text-align: center;
+}
+.start-btn {
+  margin: 50px auto;
+  width: 404px;
+  height: 82px;
+  line-height: 82px;
+  text-align: center;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border-radius: 50px;
+  font-size: large;
+  box-shadow: 0px 1px 5px rgb(73, 72, 72);
+  cursor: pointer;
+}
+/* ----------------------------main---------------------- */
+main {
+  margin: 20px 132px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main > img,
+.sec0 {
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+}
+.sec0,
+.sec1,
+.sec2,
+.sec3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 14rem auto;
+}
+.sec0 h1 {
+  font-size: 4.6rem;
+  margin-bottom: 0.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.statistic img {
+  width: 40%;
+}
+.sec-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.sec-text h3{
+  font-size: 2.7rem;
+  margin-bottom: 1rem;
+}
+.lastSec{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10rem auto;
+}
+.lastSec h3{
+  font-size: 2.7rem;
+}
+/* ---------------------------footer----------------- */
+footer {
+  color: hsl(207, 100%, 98%);
+}
+
+.footer-sec {
   background-color: hsl(192, 100%, 9%);
+  display: flex;
+  padding: 8rem 5rem;
+
+}
+.footer-left > img{
+  color: aliceblue
+  ;
+
+}
+.footer-sec > div{
+  width: 40%;
 }

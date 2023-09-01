@@ -10,8 +10,11 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
   </head>
   <body>
@@ -19,34 +22,42 @@
     <header>
       <nav>
         <a href="#"><img src="./images/logo.svg" alt="" /></a>
-        <button>Try it Free</button>
+        <div class="try-btn">Try It Free</div>
       </nav>
+      <!-- ------------------------header title------------- -->
       <div>
-        <h2>Build The Community Your Fans Will Love</h2>
+        <h1>Build The Community Your Fans Will Love</h1>
         <p>
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
-        <button>Get Started For Free</button>
+        <div class="start-btn">Get Started For Free</div>
       </div>
     </header>
     <!-- ------------------------main--------------------------- -->
     <main>
       <img src="./images/screen-mockups.svg" alt="" />
+      <!-- ----------- -->
       <div class="statistic">
-        <div class="community">
-          <img src="./images/icon-communities.svg" alt="communities picture" />
-          <h1>1.4k+</h1>
-          <p>Communities Formed</p>
+        <div class="sec0">
+          <div class="community">
+            <img
+              src="./images/icon-communities.svg"
+              alt="communities picture"
+            />
+            <h1>1.4k+</h1>
+            <p>Communities Formed</p>
+          </div>
+          <div class="messages">
+            <img src="./images/icon-messages.svg" alt="messages picture" />
+            <h1>2.7m+</h1>
+            <p>Messages Sent</p>
+          </div>
         </div>
-        <div class="messages">
-          <img src="./images/icon-messages.svg" alt="messages picture" />
-          <h1>2.7m+</h1>
-          <p>Messages Sent</p>
-        </div>
+        <!-- --------- -->
         <div class="sec1">
-          <div class="sec1-text">
+          <div class="sec1-text sec-text">
             <h3>Grow Together</h3>
             <p>
               Generate meaningful discussions with your audience and build a
@@ -56,8 +67,14 @@
           </div>
           <img src="./images/illustration-grow-together.svg" alt="" />
         </div>
+        <!-- -------------- -->
         <div class="sec2">
-          <div class="sec2-text">
+          <img
+            src="./images/illustration-flowing-conversation.svg
+          "
+            alt=""
+          />
+          <div class="sec2-text sec-text">
             <h3>Flowing Conversations</h3>
             <p>
               You wouldn't paginate a conversation in real life, so why do it
@@ -65,14 +82,10 @@
               flow.
             </p>
           </div>
-          <img
-            src="./images/illustration-flowing-conversation.svg
-          "
-            alt=""
-          />
         </div>
+        <!-- ---------------- -->
         <div class="sec3">
-          <div class="sec3-text">
+          <div class="sec3-text sec-text">
             <h3>Your Users</h3>
             <p>
               It takes no time at all to integrate Huddle with your app's
@@ -82,9 +95,10 @@
           </div>
           <img src="./images/illustration-your-users.svg" alt="" />
         </div>
+        <!-- -------------------------- -->
         <div class="lastSec">
           <h3>Ready To Build Your Community?</h3>
-          <button>Get Started For Free</button>
+          <div class="start-btn">Get Started For Free</div>
         </div>
       </div>
     </main>
@@ -92,33 +106,52 @@
     <footer>
       <img src="./images/bg-footer-top-desktop.svg" alt="" />
       <div class="footer-sec">
-       <!-- ---------------footer sec 1 -->
+        <!-- ---------------footer sec 1 -->
         <div class="footer-left">
-          <img src="./images/icon-messages.svg" alt="" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-            vestibulum a, ultrices quis sem.</p>
-            <div class="phone">
-              <img src="./images/icon-phone.svg" alt="">
-              <p>Phone: +1-543-123-4567</p>
-            </div>
-            <div class="email">
-              <img src="./images/icon-email.svg" alt="">
-              <p>Phone: +1-543-123-4567</p>
-            </div>
-            <div class="social">
-             <a href="#"><i class="fa fa-facebook-official" style="font-size:36px; color: white;"></i></a>
-             <a href="#"><i class="fa fa-instagram" style="font-size:36px; color:white"></i></a>
-             <a href="#"><i class="fa fa-twitter-square" style="font-size:36px; color: white;"></i></a>
-            </div>
+          <img src="./images/logo.svg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+          </p>
+          <div class="phone">
+            <img src="./images/icon-phone.svg" alt="" />
+            <p>Phone: +1-543-123-4567</p>
+          </div>
+          <div class="email">
+            <img src="./images/icon-email.svg" alt="" />
+            <p>Phone: +1-543-123-4567</p>
+          </div>
+          <div class="social">
+            <a href="#"
+              ><i
+                class="fa fa-facebook-official"
+                style="font-size: 36px; color: white"
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa fa-instagram"
+                style="font-size: 36px; color: white"
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="fa fa-twitter-square"
+                style="font-size: 36px; color: white"
+              ></i
+            ></a>
+          </div>
         </div>
         <!-- --------footer sec 2---------- -->
         <div class="footer-right">
-          <h3> Newsletter</h3>
-          <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-            send you spam or pass on your email address</p>
-          <input type="text">
+          <h3>Newsletter</h3>
+          <p>
+            To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We’ll never send you spam or pass on your email address
+          </p>
+          <input type="text" />
           <button type="submit">submit</button>
-          </div>
+        </div>
       </div>
     </footer>
   </body>
