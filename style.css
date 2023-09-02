@@ -158,6 +158,8 @@ footer {
 }
 .footer-left div > img {
   margin-right: 1.2rem;
+  width: 25px;
+  height: 25px;
 }
 .phone,
 .email,
@@ -170,6 +172,14 @@ footer {
 .social>a {
   margin: 3rem 1.2rem 0 0;
 } 
+
+.media-icons i , .fa {
+  color: white !important;
+  font-size: 40px !important;
+}
+.media-icons i:hover , .fa:hover{
+  color: rgb(52, 204, 250);
+}
 /* --------------FOOTER RIGHT----------- */
 .footer-right h3{
   font-size: 1.7em;
@@ -209,3 +219,4 @@ form div{
 form div:hover{
   background-color: hsl(321, 100%, 78%);
 }
+
