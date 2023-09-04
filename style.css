@@ -48,7 +48,7 @@ header > div {
   align-items: center;
 }
 header div h1 {
-  font-size: 3em;
+  font-size: 3rem;
   padding: 30px 0;
 }
 header div p {
@@ -107,7 +107,7 @@ main > img,
   text-align: center;
 }
 
-.statistic img {
+.statistic div img {
   width: 40%;
 }
 .sec-text {
@@ -130,6 +130,17 @@ main > img,
 .lastSec h3 {
   font-size: 2.7rem;
 }
+/* ------pattern----- */
+.pattern-top-desktop,
+.pattern-bottom-desktop {
+  display: block;
+  width: 100vw;
+}
+.pattern-top-mobile,
+.pattern-bottom-mobile {
+  display: none;
+}
+
 /* ---------------------------footer----------------- */
 footer {
   color: hsl(207, 100%, 98%);
@@ -180,6 +191,8 @@ footer {
 .media-icons i:hover , .fa:hover{
   color: rgb(52, 204, 250);
 }
+
+
 /* --------------FOOTER RIGHT----------- */
 .footer-right h3{
   font-size: 1.7em;
@@ -220,3 +233,4 @@ form div:hover{
   background-color: hsl(321, 100%, 78%);
 }
 
+/* ---------------------- */
